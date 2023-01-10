@@ -2,36 +2,39 @@
 <html>
   <head>
     <style>
+      /* Add your CSS styles here */
       .container {
-        padding-top: 75%; /* 4:3 Aspect Ratio */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
       }
-
-      .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
+      .post {
+        width: 40%;
+        margin: 10px;
+      }
+      iframe {
         width: 100%;
-        height: 100%;
+        height: 600px;
+        border: none;
       }
     </style>
   </head>
   <body>
     <div class="container">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6996003298382155776" class="responsive-iframe"></iframe>
-    </div>
-    <div class="container">
-   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6985894784196390912" class="responsive-iframe" ></iframe>
-      </div><div class="container">
-   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6960909156656574464" class="responsive-iframe"></iframe>
-    </div> <div class="container">
-   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6958392341892124673" class="responsive-iframe"></iframe>
+      <div class="post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6996003298382155776" ></iframe>
       </div>
+      <div class="post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6985894784196390912"></iframe>
+      </div>
+      <div class="post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6960909156656574464"></iframe>
+      </div>
+      <div class="post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6958392341892124673"></iframe>
+      </div>
+    </div>
   </body>
 </html>
-
- 
-
-
-
